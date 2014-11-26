@@ -33,8 +33,9 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main_activity8=0x7f030000;
-        public static final int fragment_main_activity8=0x7f030001;
-        public static final int list_item_forecast=0x7f030002;
+        public static final int activity_settings=0x7f030001;
+        public static final int fragment_main_activity8=0x7f030002;
+        public static final int list_item_forecast=0x7f030003;
     }
     public static final class menu {
         public static final int forecast_fragment=0x7f070000;
@@ -45,6 +46,7 @@ public final class R {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050001;
+        public static final int weather_api_key=0x7f050004;
     }
     public static final class style {
         /** 

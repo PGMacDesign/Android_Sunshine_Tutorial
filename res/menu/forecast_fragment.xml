@@ -5,9 +5,8 @@
 	    <item
 	        android:id="@+id/action_refresh"
 	        android:title="@string/action_refresh"
-	                
+			android:showAsAction="never"	                
 	        />
-	    <!-- NEED TO ADD: app:showAsAction="never" -->
 	    
 	    
 	</menu>

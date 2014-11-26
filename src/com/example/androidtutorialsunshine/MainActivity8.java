@@ -12,6 +12,7 @@ import java.util.List;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -49,7 +50,9 @@ public class MainActivity8 extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
-			return true;
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+            return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
